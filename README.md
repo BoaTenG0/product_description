@@ -1,0 +1,10 @@
+``Automate Fashion Image Captioning``
+The fashion industry is worth trillions of dollars. The goal of any company/seller is to help customer tofind the right product from a huge corpus of products that they are searching for. So, when customer find the right product they are mostly going to add the item to their cart and which help in company revenue.
+Accurate and enchanting descriptions of clothes on shopping websites can help customers without fashion knowledge to better understand the features (attributes, style, functionality, etc.) of the items and increase online sales by enticing more customers. Also, most of the time when any customer visits shopping websites, they are looking for a certain style or type of clothes that wish to purchase, they search for the item by providing a description of the item and the system finds the relevant items that match the search query by computing the similarity score between the query and the item caption. In such use cases having an accurate description of the clothes is useful.
+Manually writing the descriptions is a non-trivial and highly expensive task. Thus, the automatic generation of descriptions is an urgent need and will help the seller (while uploading the product to recommend captions). 
+
+
+`Problem Statement`
+Given the clothes image provide a short caption that describes the item. In general, in image captioning datasets (e.g., COCO, Fliker), the descriptions of fashion items have three unique features, which makes the automatic generation of captions a challenging task. First, fashion captioning needs to describe the attributes of an item, while image captioning generally narrates the objects and their relations in the image.
+e.g. image where the model is wearing a shirt, the general caption model describes such images as "male wearing a white shirt". This is incorrect since we want the model to describe the item. In this application, it is much more important to have a performant to caption the image than an interpretable model. 
+
